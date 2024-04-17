@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <header>
+        <h2>Категорії</h2>
+    </header>
+    <br>
+    {% for category in all_categories %}
+    <p>
+        <a href="{% url 'category_detail' category_id=category.pk %}">{{ category.name }}</a>
+    </p>
+    {% endfor %}
+{% endblock %}

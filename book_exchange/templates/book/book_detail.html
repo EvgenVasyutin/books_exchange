@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <header>
+            <h2>Книга {{ book.title }}</h2>
+    </header>
+
+        <p>
+            {% if book.picture %}
+                Картинка: <img src="{{ book.picture.url }}" width=200 class="rounded" alt="{{ book.picture }}">
+            {% endif %}
+            <br>
+            Категорія: {{ book.category }}
+            <br>
+            Назва книги: {{ book.title }}
+            <br>
+            Автор: {{ book.author }}
+            <br>
+            Власник: {{ book.owner }}
+            <br>
+            Cтворено для обміну: {{ book.created_at|date:"d/m/Y H:i:s" }}
+        </p>
+        <br>
+        <ul>
+            {% for comment in book.comment_book.all %}
+                <li>Відгук юзера {{ comment.author.first_name }}: {{ comment.text }}</li>
+                <br>
+                {% if request.user.id == comment.author.id %}
+                    <a href="{% url 'comment_delete' comment_id=comment.id %}" class="btn btn-outline-danger">Видалити Відгук</a><br>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <form method="post" action="{% url 'book_detail' book_id=book.id %}" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ comment_form.text }}
+            <button type="submit" class="btn btn-success">Залишити Відгук</button>
+        </form>
+{% endblock %}
+

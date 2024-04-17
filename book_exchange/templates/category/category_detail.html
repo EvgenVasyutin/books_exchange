@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="col-md-6 offset-md-3">
+    <header>
+        <h2>Категорія {{ category.name }}</h2>
+    </header>
+    <br>
+    {% for book in category_books %}
+        <p>
+            Картинка:
+            <br>
+            Категорія: {{ book.category }}
+            <br>
+            Назва книги: {{ book.title }}
+            <br>
+            Автор: {{ book.author }}
+            <br>
+            Власник: {{ book.owner }}
+        </p>
+    {% endfor %}
+    </div>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <header>
+            <h2>Список усіх книг на обмін</h2>
+    </header>
+
+    {% for book in page_obj %}
+        <p>
+            {% if book.picture %}
+                Картинка: <img src="{{ book.picture.url }}" width=200 class="rounded" alt="{{ book.picture }}">
+            {% endif %}
+            <br>
+            Категорія: {{ book.category }}
+            <br>
+            Назва книги: {{ book.title }}
+            <br>
+            Автор: {{ book.author }}
+            <br>
+            Власник: {{ book.owner }}
+            <br>
+            Cтворено для обміну: {{ book.created_at|date:"d/m/Y H:i:s" }}
+        </p>
+        <a href="{% url 'book_detail' book_id=book.id %}" class="btn btn-outline-info">Детальніше</a>
+        <p>
+        <ul>
+            {% for comment in book.comment_book.all %}
+                <li>Відгук юзера {{ comment.author.first_name }}: {{ comment.text }}</li>
+                <br>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+    </p>
+    {% include 'includes/pagination.html' %}
+{% endblock %}

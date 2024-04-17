@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <header>
+        <h2>Мої пропозиції</h2>
+    </header>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ trade_form.as_p }}
+        <button type="submit" class="btn btn-success">Запропонувати</button>
+    </form>
+{% endblock %}

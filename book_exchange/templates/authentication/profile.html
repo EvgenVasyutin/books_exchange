@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <header>
+        <h2>{{ user.first_name }} {{ user.last_name }}</h2>
+    </header>
+    <br>
+    <a href="{% url 'book_create' %}" class="btn btn-outline-primary">Виставити книгу на обмін</a>
+    <a href="{% url 'user_trades' user_id=user.id %}" class="btn btn-outline-secondary">Мої пропозиції</a>
+    <br>
+    <br>
+    {% for book in user_books %}
+        <p>
+            {% if book.picture %}
+                Картинка: <img src="{{ book.picture.url }}" width=200 class="rounded" alt="{{ book.picture }}">
+            {% endif %}
+            <br>
+            Категорія: {{ book.category }}
+            <br>
+            Назва книги: {{ book.title }}
+            <br>
+            Автор: {{ book.author }}
+            <br>
+            Cтворено для обміну: {{ book.created_at|date:"d/m/Y H:i:s" }}
+            <br>
+            {% if request.user.id == book.owner.id %}
+                <a href="{% url 'book_delete' book.id %}" class="btn btn-outline-danger">Видалити книгу з обміну</a>
+            {% endif %}
+        </p>
+    {% endfor %}
+{% endblock %}

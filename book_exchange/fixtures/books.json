@@ -1,0 +1,1028 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2024-04-15T12:01:53.430Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "test_username",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add picture",
+            "content_type": 7,
+            "codename": "add_picture"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change picture",
+            "content_type": 7,
+            "codename": "change_picture"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete picture",
+            "content_type": 7,
+            "codename": "delete_picture"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view picture",
+            "content_type": 7,
+            "codename": "view_picture"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add author",
+            "content_type": 8,
+            "codename": "add_author"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change author",
+            "content_type": 8,
+            "codename": "change_author"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete author",
+            "content_type": 8,
+            "codename": "delete_author"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view author",
+            "content_type": 8,
+            "codename": "view_author"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add category",
+            "content_type": 9,
+            "codename": "add_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change category",
+            "content_type": 9,
+            "codename": "change_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete category",
+            "content_type": 9,
+            "codename": "delete_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view category",
+            "content_type": 9,
+            "codename": "view_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add book",
+            "content_type": 10,
+            "codename": "add_book"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change book",
+            "content_type": 10,
+            "codename": "change_book"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete book",
+            "content_type": 10,
+            "codename": "delete_book"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view book",
+            "content_type": 10,
+            "codename": "view_book"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add exchange",
+            "content_type": 11,
+            "codename": "add_exchange"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change exchange",
+            "content_type": 11,
+            "codename": "change_exchange"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete exchange",
+            "content_type": 11,
+            "codename": "delete_exchange"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view exchange",
+            "content_type": 11,
+            "codename": "view_exchange"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$WQz7wu31EHtaB6LbiaDQCn$bAkRpM4bPdflvicBcM8cvuqaz8mh4wWL036T6n8gXow=",
+            "last_login": "2024-04-15T12:01:32.149Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@admin.net",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-04-14T12:32:19.324Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$tTReWrGtPbeMkoRlrd4Hp7$cskxjWTXPUbRGZQUz3KRV6pPcA9dkI6cfiJLIOt53GA=",
+            "last_login": "2024-04-15T12:04:55.236Z",
+            "is_superuser": false,
+            "username": "test_user",
+            "first_name": "test_first_name",
+            "last_name": "test_last_name",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-04-15T12:04:54.789Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "books",
+            "model": "picture"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "books",
+            "model": "author"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "books",
+            "model": "category"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "books",
+            "model": "book"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "books",
+            "model": "exchange"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "3vrkg78ljqarogvpihc2r62hwvf9w2ya",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSHlMbS4dO83kGEGpGogKe3K-O_apAvd3nPOfYmA21rC1tMSZhZnYcTpd4tIj1R3wHestyap1XWZo9wVedAur43T83K4fwcFe_nWcUjKRPKaFVOawAFMABQT2sjZZbLZWO_R0-CAKXutwY02K1aIPJJ4fwAEtDjL:1rwL4x:FGnZyT-tCNk4IFEQg9_UEX9abw1l6OtYe3BKzpI89F4",
+            "expire_date": "2024-04-29T12:04:55.238Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "eg0ayq476arp5gwzg4lvc28tjcvtvm68",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQRO_iGlnx2g6Gkj5niPYnHEC2FCcV4u4kUgooZ96beZsR1yWPa9N5nMRcDZjTb0fITy07kAeWe7VcyzJPZHfFHrTZoYq-bof7d5Cx5W19Fr5QcClxjx76ToJQ1AiUImonngjjlpV9coJADhQVQ4jeKXBC8_kC-WU4pQ:1rvz2d:8KkQTBtRUlhfUge7mcsEJwyStV5kMyha1E5c_W-8CYM",
+            "expire_date": "2024-04-28T12:33:03.201Z"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 1,
+        "fields": {
+            "first_name": "Тарас",
+            "last_name": "Шевченко"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 2,
+        "fields": {
+            "first_name": "Леся",
+            "last_name": "Українка"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 3,
+        "fields": {
+            "first_name": "Іван",
+            "last_name": "Франко"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 4,
+        "fields": {
+            "first_name": "Микола",
+            "last_name": "Гоголь"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 5,
+        "fields": {
+            "first_name": "Марина",
+            "last_name": "Цвєтаєва"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 6,
+        "fields": {
+            "first_name": "Олесь",
+            "last_name": "Гончар"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 7,
+        "fields": {
+            "first_name": "Ліна",
+            "last_name": "Костенко"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 8,
+        "fields": {
+            "first_name": "Павло",
+            "last_name": "Загребельний"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 9,
+        "fields": {
+            "first_name": "Юрій",
+            "last_name": "Андрухович"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 10,
+        "fields": {
+            "first_name": "Софія",
+            "last_name": "Андрухович"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 11,
+        "fields": {
+            "first_name": "Іван",
+            "last_name": "Багряний"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 12,
+        "fields": {
+            "first_name": "Василь",
+            "last_name": "Стус"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 13,
+        "fields": {
+            "first_name": "Олесь",
+            "last_name": "Бердник"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 14,
+        "fields": {
+            "first_name": "Любко",
+            "last_name": "Дереш"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 15,
+        "fields": {
+            "first_name": "Олександр",
+            "last_name": "Олесь"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 16,
+        "fields": {
+            "first_name": "Василь",
+            "last_name": "Шкляр"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 17,
+        "fields": {
+            "first_name": "Андрій",
+            "last_name": "Кокотюха"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 18,
+        "fields": {
+            "first_name": "Марко",
+            "last_name": "Вовчок"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 19,
+        "fields": {
+            "first_name": "Володимир",
+            "last_name": "Даля"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 20,
+        "fields": {
+            "first_name": "Павло",
+            "last_name": "Губенко"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 2,
+        "fields": {
+            "name": "Художня література"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 3,
+        "fields": {
+            "name": "Детективи та трилери"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 4,
+        "fields": {
+            "name": "Наукова фантастика та фентезі"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 5,
+        "fields": {
+            "name": "Романи"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 6,
+        "fields": {
+            "name": "Історична література"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 7,
+        "fields": {
+            "name": "Біографії та мемуари"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 8,
+        "fields": {
+            "name": "Саморозвиток та особистість"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 9,
+        "fields": {
+            "name": "Бізнес та економіка"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 10,
+        "fields": {
+            "name": "Подорожі та пригоди"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 11,
+        "fields": {
+            "name": "Кулінарія та їжа"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 12,
+        "fields": {
+            "name": "Інше"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 1,
+        "fields": {
+            "title": "Book 1",
+            "picture": null,
+            "author": 1,
+            "category": 2,
+            "owner": 2,
+            "created_at": "2024-04-14T08:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 2,
+        "fields": {
+            "title": "Book 2",
+            "picture": null,
+            "author": 2,
+            "category": 3,
+            "owner": 1,
+            "created_at": "2024-04-14T09:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 3,
+        "fields": {
+            "title": "Book 3",
+            "picture": null,
+            "author": 3,
+            "category": 4,
+            "owner": 1,
+            "created_at": "2024-04-14T10:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 4,
+        "fields": {
+            "title": "Book 4",
+            "picture": null,
+            "author": 4,
+            "category": 5,
+            "owner": 1,
+            "created_at": "2024-04-14T11:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 5,
+        "fields": {
+            "title": "Book 5",
+            "picture": null,
+            "author": 5,
+            "category": 6,
+            "owner": 2,
+            "created_at": "2024-04-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 6,
+        "fields": {
+            "title": "Book 6",
+            "picture": null,
+            "author": 6,
+            "category": 7,
+            "owner": 2,
+            "created_at": "2024-04-14T13:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 7,
+        "fields": {
+            "title": "Book 7",
+            "picture": null,
+            "author": 7,
+            "category": 8,
+            "owner": 1,
+            "created_at": "2024-04-14T14:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 8,
+        "fields": {
+            "title": "Book 8",
+            "picture": null,
+            "author": 8,
+            "category": 9,
+            "owner": 2,
+            "created_at": "2024-04-14T15:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 9,
+        "fields": {
+            "title": "Book 9",
+            "picture": null,
+            "author": 9,
+            "category": 10,
+            "owner": 1,
+            "created_at": "2024-04-14T16:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 10,
+        "fields": {
+            "title": "Book 10",
+            "picture": null,
+            "author": 10,
+            "category": 2,
+            "owner": 1,
+            "created_at": "2024-04-14T17:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 11,
+        "fields": {
+            "title": "Book 11",
+            "picture": null,
+            "author": 11,
+            "category": 3,
+            "owner": 1,
+            "created_at": "2024-04-14T18:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 12,
+        "fields": {
+            "title": "Book 12",
+            "picture": null,
+            "author": 12,
+            "category": 4,
+            "owner": 2,
+            "created_at": "2024-04-14T19:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 13,
+        "fields": {
+            "title": "Book 13",
+            "picture": null,
+            "author": 13,
+            "category": 5,
+            "owner": 1,
+            "created_at": "2024-04-14T20:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 14,
+        "fields": {
+            "title": "Book 14",
+            "picture": null,
+            "author": 14,
+            "category": 6,
+            "owner": 2,
+            "created_at": "2024-04-14T21:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 15,
+        "fields": {
+            "title": "Book 15",
+            "picture": null,
+            "author": 15,
+            "category": 7,
+            "owner": 1,
+            "created_at": "2024-04-14T22:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 16,
+        "fields": {
+            "title": "Book 16",
+            "picture": null,
+            "author": 16,
+            "category": 8,
+            "owner": 1,
+            "created_at": "2024-04-14T23:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 17,
+        "fields": {
+            "title": "Book 17",
+            "picture": null,
+            "author": 17,
+            "category": 9,
+            "owner": 1,
+            "created_at": "2024-04-15T00:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 18,
+        "fields": {
+            "title": "Book 18",
+            "picture": null,
+            "author": 18,
+            "category": 10,
+            "owner": 1,
+            "created_at": "2024-04-15T01:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 19,
+        "fields": {
+            "title": "Book 19",
+            "picture": null,
+            "author": 19,
+            "category": 2,
+            "owner": 2,
+            "created_at": "2024-04-15T02:00:00Z"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 20,
+        "fields": {
+            "title": "Book 20",
+            "picture": null,
+            "author": 20,
+            "category": 3,
+            "owner": 2,
+            "created_at": "2024-04-15T03:00:00Z"
+        }
+    }
+]

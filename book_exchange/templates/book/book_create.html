@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <header>
+        <h2>Виставити книгу на обмін</h2>
+    </header>
+
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ book_form.as_p }}
+        <button type="submit" class="btn btn-success">Виставити</button>
+    </form>
+{% endblock %}

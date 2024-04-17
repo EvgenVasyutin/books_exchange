@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <header>
+        <h2>Мої пропозиції</h2>
+    </header>
+    <br>
+    {% for trade in trades %}
+        <p>
+            Моя книга: {{ trade.to_book }} -> На книгу: {{ trade.from_book }}
+            <br>
+            <br>
+            <a href="{% url 'trade_confirm' trade_id=trade.id %}" class="btn btn-outline-success">Підтвердити</a>
+            <a href="{% url 'trade_delete' trade_id=trade.id %}" class="btn btn-outline-danger">Відмовити</a>
+        </p>
+        <br>
+    {% endfor %}
+{% endblock %}
